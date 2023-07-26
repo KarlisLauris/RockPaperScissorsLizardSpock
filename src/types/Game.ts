@@ -14,7 +14,6 @@ export enum Winner {
 
 export interface Player {
   name: string;
-  computer: boolean;
   lastChoice: string;
   wins: number;
 }
